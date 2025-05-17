@@ -95,6 +95,10 @@ const Navbar = () => {
                     Sign Up
                   </MenuItem>
                 )}
+                {/* Order */}
+                <MenuItem as={Link} to="/orders">
+                  Orders
+                </MenuItem>
 
                 {/* Project Credits */}
                 <MenuItem as={Link} to="/credentials">
